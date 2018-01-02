@@ -1,0 +1,85 @@
+.header__phone {
+  padding: 0;
+  height: 56px;
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  top: 0; }
+  .header__phone--personas {
+    background: #FF9800;
+    background: -moz-linear-gradient(45deg, #FF9800 0%, #E15A0F 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #FF9800), color-stop(100%, #E15A0F));
+    background: -webkit-linear-gradient(45deg, #FF9800 0%, #E15A0F 100%);
+    background: -o-linear-gradient(45deg, #FF9800 0%, #E15A0F 100%);
+    background: -ms-linear-gradient(45deg, #FF9800 0%, #E15A0F 100%);
+    background: linear-gradient(45deg, #FF9800 0%, #E15A0F 100%); }
+  .header__phone--pyme {
+    background: #A4AAB6;
+    background: -moz-linear-gradient(45deg, #A4AAB6 0%, #3A3F4A 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #A4AAB6), color-stop(100%, #3A3F4A));
+    background: -webkit-linear-gradient(45deg, #A4AAB6 0%, #3A3F4A 100%);
+    background: -o-linear-gradient(45deg, #A4AAB6 0%, #3A3F4A 100%);
+    background: -ms-linear-gradient(45deg, #A4AAB6 0%, #3A3F4A 100%);
+    background: linear-gradient(45deg, #A4AAB6 0%, #3A3F4A 100%); }
+  .header__phone--empresas {
+    background: #666666;
+    background: -moz-linear-gradient(45deg, #666666 0%, #000000 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #666666), color-stop(100%, #000000));
+    background: -webkit-linear-gradient(45deg, #666666 0%, #000000 100%);
+    background: -o-linear-gradient(45deg, #666666 0%, #000000 100%);
+    background: -ms-linear-gradient(45deg, #666666 0%, #000000 100%);
+    background: linear-gradient(45deg, #666666 0%, #000000 100%); }
+
+.btn__header {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 24px;
+  width: 44px;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  transition: all ease-in-out 0.2s;
+  justify-content: center;
+  align-items: center; }
+  .btn__header--left {
+    float: left; }
+  .btn__header--right {
+    float: right; }
+  .btn__header:active, .btn__header:focus, .btn__header:hover {
+    color: #e15a0f;
+    outline: none; }
+
+.brand {
+  width: 165px;
+  margin: 14px 0 0 50%;
+  z-index: 999;
+  position: absolute;
+  left: -82px; }
+  .brand .logo-be {
+    width: 100%;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../img/logo_be.svg") center left no-repeat;
+    background-size: cover;
+    text-indent: -999999px; }
+
+@media screen and (max-width: 320px) {
+  .header__phone {
+    height: 48px; }
+
+  .brand {
+    margin-top: 9px;
+    width: 140px;
+    left: -70px; }
+    .brand .logo-be {
+      background-size: 100%; }
+
+  .btn__header {
+    width: 40px; }
+    .btn__header .material-icons {
+      font-size: 20px; } }
+
+/*# sourceMappingURL=headers.css.map */

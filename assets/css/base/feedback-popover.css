@@ -1,0 +1,25 @@
+.popover{
+  background: #666 !important;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+}
+.popover .popover-title{
+  background: #666 !important;
+  border-bottom: 1px solid #666;
+  color: white;
+  font-weight: normal;
+  padding-bottom: 0;
+}
+.popover.in .popover-title:before{
+  content: "x";
+  font-size: 22px;
+  right: 10px;
+  position: absolute;
+  font-weight: 
+}
+.popover.bottom>.arrow:after,
+.popover.top>.arrow:after{
+  border-bottom-color: #666;
+  border-top-color: #666;
+}

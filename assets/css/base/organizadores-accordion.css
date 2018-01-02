@@ -1,0 +1,23 @@
+.panel-heading{
+  padding: 0;
+}
+.panel-heading a{
+  display: inline-block;
+  width: 100%;
+  padding: 10px 15px;
+}
+.panel-heading .accordion-toggle:after { 
+  font-family: "Material Icons";
+  content: "add_circle_outline";
+  float: right;       
+}
+.panel-heading a[aria-expanded=true]:after { 
+  font-family: "Material Icons";
+  content: "remove_circle_outline";
+  color: #E15A0F ;
+ }
+.panel-heading .accordion-toggle.collapsed:after {
+  font-family: "Material Icons";
+  content: "add_circle_outline";
+  color: #333;
+}

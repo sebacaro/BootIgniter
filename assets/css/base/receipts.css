@@ -1,0 +1,40 @@
+@import url(font_face.css);
+.head__receipt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+  .head__receipt i {
+    font-size: 70px; }
+  .head__receipt h3 {
+    line-height: 140%;
+    margin-top: 20px; }
+  .head__receipt--success {
+    color: #0FC88D; }
+    .head__receipt--success span {
+      border: 6px solid #0FC88D;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      position: relative;
+      margin: 5px;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg); }
+      .head__receipt--success span:after {
+        content: "";
+        display: block;
+        text-indent: -999999px;
+        color: #e8eaeb;
+        left: 14px;
+        top: 9px;
+        width: 15px;
+        height: 26px;
+        position: absolute;
+        border: solid #0FC88D;
+        border-width: 0 6px 6px 0; }
+  .head__receipt--failed {
+    color: #E64456; }
+  .head__receipt--partial {
+    color: #FF9800; }
+
+/*# sourceMappingURL=receipts.css.map */

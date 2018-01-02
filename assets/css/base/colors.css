@@ -1,0 +1,32 @@
+.swatch__white {
+  background: #ffffff; }
+.swatch__background {
+  background: #EEEEEE; }
+.swatch__disabled {
+  background: #DBDBDB; }
+.swatch__gray_1 {
+  background: #A4AAB6; }
+.swatch__gray_2 {
+  background: #868C99; }
+.swatch__gray_3 {
+  background: #3A3F4A; }
+.swatch__gray_4 {
+  background: #666666; }
+.swatch__gray_5 {
+  background: #333333; }
+.swatch__black {
+  background: #000000; }
+.swatch__orange {
+  background: #FF9800; }
+.swatch__orange_action {
+  background: #E15A0F; }
+.swatch__orange_pressed {
+  background: #A71500; }
+.swatch__blue {
+  background: #064684; }
+.swatch__error {
+  background: #E64456; }
+.swatch__success {
+  background: #0FC88D; }
+
+/*# sourceMappingURL=colors.css.map */

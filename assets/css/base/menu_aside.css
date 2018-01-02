@@ -1,0 +1,170 @@
+@import url(font_face.css);
+@import url(font_face.css);
+body {
+  font-size: 16px;
+  font-family: "open_regular"; }
+
+.label-primary {
+  font-size: 63%; }
+
+h1 {
+  font-family: "open_bold";
+  font-size: 1.1em;
+  text-transform: uppercase;
+  line-height: 100%; }
+
+h2 {
+  font-family: "open_bold";
+  font-size: 1em;
+  line-height: 100%; }
+
+h3 {
+  font-family: "open_semi";
+  font-size: 1em;
+  line-height: 100%; }
+
+ul {
+  font-family: "open_regular";
+  font-size: 1em; }
+
+.header__phone {
+  padding: 0;
+  height: 56px;
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.2); }
+  .header__phone--personas {
+    background: #FF9800;
+    background: -moz-linear-gradient(45deg, #FF9800 0%, #E15A0F 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #FF9800), color-stop(100%, #E15A0F));
+    background: -webkit-linear-gradient(45deg, #FF9800 0%, #E15A0F 100%);
+    background: -o-linear-gradient(45deg, #FF9800 0%, #E15A0F 100%);
+    background: -ms-linear-gradient(45deg, #FF9800 0%, #E15A0F 100%);
+    background: linear-gradient(45deg, #FF9800 0%, #E15A0F 100%); }
+  .header__phone--pyme {
+    background: #A4AAB6;
+    background: -moz-linear-gradient(45deg, #A4AAB6 0%, #3A3F4A 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #A4AAB6), color-stop(100%, #3A3F4A));
+    background: -webkit-linear-gradient(45deg, #A4AAB6 0%, #3A3F4A 100%);
+    background: -o-linear-gradient(45deg, #A4AAB6 0%, #3A3F4A 100%);
+    background: -ms-linear-gradient(45deg, #A4AAB6 0%, #3A3F4A 100%);
+    background: linear-gradient(45deg, #A4AAB6 0%, #3A3F4A 100%); }
+  .header__phone--empresas {
+    background: #666666;
+    background: -moz-linear-gradient(45deg, #666666 0%, #000000 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #666666), color-stop(100%, #000000));
+    background: -webkit-linear-gradient(45deg, #666666 0%, #000000 100%);
+    background: -o-linear-gradient(45deg, #666666 0%, #000000 100%);
+    background: -ms-linear-gradient(45deg, #666666 0%, #000000 100%);
+    background: linear-gradient(45deg, #666666 0%, #000000 100%); }
+
+.btn__header {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 24px;
+  width: 44px;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  transition: all ease-in-out 0.2s;
+  justify-content: center;
+  align-items: center; }
+  .btn__header--left {
+    float: left; }
+  .btn__header--right {
+    float: right; }
+  .btn__header:active, .btn__header:focus, .btn__header:hover {
+    color: #e15a0f;
+    outline: none; }
+
+.brand {
+  width: 165px;
+  margin: 14px 0 0 50%;
+  z-index: 999;
+  position: absolute;
+  left: -82px; }
+  .brand .logo-be {
+    width: 100%;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../img/logo_be.svg") center left;
+    background-size: cover;
+    text-indent: -999999px; }
+
+.aside {
+  opacity: 0;
+  box-shadow: -3px 0px 24px rgba(0, 0, 0, 0.5);
+  background: #ffffff;
+  height: 100vh;
+  position: fixed;
+  right: -200vh;
+  z-index: 999999;
+  overflow-y: scroll;
+  margin-top: 0;
+  top: 0;
+  width: 95%;
+  height: 100%;
+  overflow: scroll;
+  transition: all ease-in-out 0.5s 0s; }
+  .aside.active {
+    right: 0;
+    padding-bottom: 20px;
+    opacity: 1; }
+
+.aside__menu {
+  background: rgba(78, 78, 82, 0.98);
+  background: #ffffff; }
+  .aside__menu .menu__section {
+    color: #E15A0F;
+    size: 1em;
+    padding: 16px;
+    border-bottom: 1px solid #A4AAB6;
+    margin: 0; }
+  .aside__menu ul {
+    list-style: none;
+    padding: 0; }
+    .aside__menu ul li {
+      border-bottom: 1px solid #A4AAB6; }
+    .aside__menu ul a {
+      color: #666666;
+      font-family: "open_semi";
+      padding: 12px 15px;
+      display: flex;
+      cursor: pointer;
+      transition: all ease-in-out 0.2s; }
+      .aside__menu ul a:hover, .aside__menu ul a:active, .aside__menu ul a:focus {
+        text-decoration: none;
+        color: #E15A0F; }
+        .aside__menu ul a:hover i, .aside__menu ul a:active i, .aside__menu ul a:focus i {
+          color: #E15A0F; }
+      .aside__menu ul a i {
+        margin-right: 5px;
+        transition: all ease-in-out 0.2s; }
+  .aside__menu .aside__title {
+    height: 56px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    width: 100%; }
+    .aside__menu .aside__title .btn__header {
+      color: #666666; }
+    .aside__menu .aside__title .logo-be {
+      background: url("../../img/logo_be_pos.svg") center left; }
+  .aside__menu--pyme {
+    background: #3A3F4A; }
+    .aside__menu--pyme .aside__title .btn__header {
+      color: #ffffff; }
+    .aside__menu--pyme .aside__title .logo-be {
+      background: url("../../img/logo_be.svg") center left; }
+    .aside__menu--pyme ul li a {
+      color: #ffffff; }
+  .aside__menu--empresas {
+    background: #333333; }
+    .aside__menu--empresas .aside__title .btn__header {
+      color: #ffffff; }
+    .aside__menu--empresas .aside__title .logo-be {
+      background: url("../../img/logo_be.svg") center left; }
+    .aside__menu--empresas ul li a {
+      color: #ffffff; }
+
+/*# sourceMappingURL=menu_aside.css.map */

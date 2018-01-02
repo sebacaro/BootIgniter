@@ -1,0 +1,29 @@
+@import url(font_face.css);
+body {
+  font-size: 16px;
+  font-family: "open_regular"; }
+
+.label-primary {
+  font-size: 63%; }
+
+h1 {
+  font-family: "open_bold";
+  font-size: 1.1em;
+  text-transform: uppercase;
+  line-height: 100%; }
+
+h2 {
+  font-family: "open_bold";
+  font-size: 1em;
+  line-height: 100%; }
+
+h3 {
+  font-family: "open_semi";
+  font-size: 1em;
+  line-height: 100%; }
+
+ul {
+  font-family: "open_regular";
+  font-size: 14px; }
+
+/*# sourceMappingURL=text.css.map */

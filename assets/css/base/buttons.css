@@ -1,0 +1,106 @@
+@import url(font_face.css);
+.btn {
+  font-size: 1em;
+  padding: 16px 10px;
+  border-radius: 6px;
+/*  line-height: 100%;
+*/  font-family: "open_semi";
+width: 100%;
+transition: all ease-in-out 0.2s; 
+}
+
+
+.btn-xs{
+  font-size: 16px;
+  padding: 8px;
+}
+
+.btn__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 10px; 
+}
+
+.btn__icon i {
+  margin-right: 5px;
+  font-size: 32px;
+  line-height: 100%;
+  text-decoration: none; 
+}
+.btn__icon[disabled] i {
+  text-decoration: none !important; 
+}
+
+.btn__icon--multiline {
+  line-height: 130%;
+  text-align: left; 
+}
+.btn__icon--multiline i {
+  font-size: 47px; 
+}
+.btn__first-l {
+  background: #E15A0F;
+  color: #ffffff;
+  box-shadow: 0 11px 20px rgba(0, 0, 0, 0.25); 
+}
+.btn__first-l:hover, .btn__first-l:focus {
+  background: #A71500;
+  color: #ffffff; 
+}
+.btn__first-l[disabled] {
+  opacity: 0.5;
+  background: #E15A0F;
+  color: #ffffff; 
+}
+.btn__first-l[disabled] span {
+  text-decoration: none; 
+}
+.btn__first-l--icon {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.btn__second-l {
+  background: none;
+  box-shadow: inset 0px 0px 0px 2px #E15A0F;
+  color: #E15A0F; 
+}
+.btn__second-l:hover, .btn__second-l:focus {
+  box-shadow: inset 0px 0px 0px 2px #A71500;
+  color: #A71500; 
+}
+.btn__second-l[disabled] {
+  background: none;
+  box-shadow: inset 0px 0px 0px 2px #E15A0F; 
+}
+.btn__second-l[disabled]:hover, .btn__second-l[disabled]:focus {
+  box-shadow: inset 0px 0px 0px 2px #E15A0F;
+  color: #E15A0F; 
+}
+.btn__third-l {
+  background: none;
+  border: none;
+  color: #333333; 
+}
+.btn__third-l span {
+  text-decoration: underline;
+  text-align: left; 
+}
+.btn__third-l:hover, .btn__third-l:focus {
+  color: #A71500; 
+}
+.btn__third-l:hover span, .btn__third-l:focus span {
+  text-decoration: underline; 
+}
+.btn__third-l[disabled] {
+  background: inherit;
+  border: inherit;
+  color: inherit;
+  opacity: 0.5; 
+}
+.btn__third-l[disabled] span {
+  text-decoration: underline; 
+}
+
+/*# sourceMappingURL=buttons.css.map */

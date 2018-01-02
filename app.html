@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>BancoEstado Serguro</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Seguro">
+	<meta name="author" content="Célula Seguro">
+
+	<!-- CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/custom.css" rel="stylesheet" type="text/css">
+
+	<!-- CSS ELEMENTOS BE -->
+	<link href="assets/css/base/be-gui.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="assets/css/swiper.min.css">
+
+	<!-- LAYOUT BASICO -->
+	<link href="assets/css/base/headers.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/base/buttons.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/base/text.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/base/colors.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/base/container.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/base/lists.css" rel="stylesheet" type="text/css">
+	<link href="assets/fonts/iconfont/material-icons.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/base/organizadores-slideshow.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/base/helpers.css" rel="stylesheet" type="text/css">
+
+	<!-- IE 9 Fallback-->
+	<!--[if IE 9]>
+		<link href="assets/css/ie.css" rel="stylesheet">
+		<![endif]-->
+	<!-- FAVICONS -->
+	<!--link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/repute144x144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/repute114x114.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/repute72x72.png">
+	<link rel="apple-touch-icon-precomposed" href="assets/ico/repute57x57.png"-->
+	<link rel="shortcut icon" href="">
+</head>
+
+<body>
+	<!-- WRAPPER -->
+	<div class="wrapper">
+
+		<!-- PAGE CONTENT -->
+			<div class="container-fluid">
+						<div class="row">
+									<section class="render render__view">
+										<nav class="header header__phone header__phone--personas">
+											<button class="btn__header btn__header--left" title="Volver"><i class="material-icons">navigate_before</i></button>
+									        <div class="brand">
+									        	<span class="logo-be">BancoEstado</span>
+											</div>
+											<button class="btn__header btn__header--right" title="Menú de la aplicación">
+												<i class="material-icons">menu</i>
+											</button>
+										</nav>
+
+										<!--FIN HEADER APP-->
+										<div class="section__title">
+											<h1>Título de sección</h1>
+										</div>
+
+										<div class="swiper-container">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide" data-swiper-autoplay="3000">Slide 1</div>
+												<div class="swiper-slide" data-swiper-autoplay="3000">Slide 2</div>
+												<div class="swiper-slide" data-swiper-autoplay="3000">Slide 3</div>
+											</div>
+											<div class="swiper-pagination"></div>
+										</div>
+
+										<div class="container-fluid">
+											<div class="row">
+												<div class="col-sm-12">
+													<h2>Seguro Egra</h2>
+													<ul class="box box__list">
+														<li class="row__list">
+															<label for="fav_1" class="label__lists">
+																<div class="aux aux__selector">
+																	<input id="fav_1" class="favorite" type="checkbox" title="..." checked>
+																</div>
+																<div class="description">
+																	<span class="item__data">Cuenta RUT</span>
+																	<span class="item__data item__data--primary">12345678</span>
+																</div>
+															</label>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+
+										<div class="container-fluid">
+											<div class="row">
+												<div class="col-sm-12">
+													<button class="btn btn__first-l">Continuar</button>
+													<button class="btn btn__third-l">LLamar</button>
+												</div>
+											</div>
+										</div>
+									</section>
+						</div>
+			<!-- END PAGE CONTENT -->
+	</div>
+		<!-- END WRAPPER -->
+
+
+	<!-- JAVASCRIPTS -->
+	<script src="assets/js/jquery-2.1.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<script>
+		var pathname = document.location.href.match(/[^\/]+$/)[0]
+		var linksToLabel = $('a[href="' + pathname +'"]');
+		linksToLabel.parent().parent().addClass("in");
+		linksToLabel.parent().addClass("active");
+	</script>
+
+	<script src="assets/js/swiper.min.js"></script>
+	<script>
+	    var swiper = new Swiper('.swiper-container', {
+			pagination: '.swiper-pagination',
+			paginationClickable: true,
+			autoplay: true,
+			speed: 1500
+	    });
+    </script>
+
+</body>
+
+</html>

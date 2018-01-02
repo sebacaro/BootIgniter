@@ -1,0 +1,10 @@
+.contenedor{
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  clear: both;
+  margin-bottom: 10px;
+  padding: 15px;
+  transition: all .3s;
+  width: 100%;
+}

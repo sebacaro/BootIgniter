@@ -1,0 +1,56 @@
+@import url(font_face.css);
+
+/* MENSAJE MODAL */
+/*icono*/
+.box-icon {
+    padding: 0;
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+.ic-rojo{color:#dc0000;font-size: 45px!important;}
+.ic-azul{color:#064684;font-size: 45px!important;}
+/**/
+.modal-footer{border:none !important;}
+
+.modal-xs .vertical-alignment-helper {
+  display: table;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+.modal-xs .vertical-align-center {
+  display: table-cell;
+  vertical-align: middle;
+  pointer-events: none;
+  padding: 15px;
+}
+.modal-xs .modal-content {
+  width: inherit;
+  height: inherit;
+  margin: 0 auto;
+  pointer-events: all;
+  font-size: 16px;
+  color: #666;
+}
+.modal-xs .btns-actions {
+  margin-top: 20px;
+  margin-bottom: 0 !important;
+}
+.modal-xs .btns-actions .btn {
+  padding: 10px 0 !important;
+}
+.txt-valid{color:#dc0000;font-size: 11px;}
+
+/*Mensaje Info*/
+.msje-info{background: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #064684;
+    height: 43px;
+    background: #D9E6F2;
+	color:#064684
+}
+.txt-info{float: left;margin-left: 7px;}

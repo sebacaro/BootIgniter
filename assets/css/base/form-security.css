@@ -1,0 +1,50 @@
+@import url("forms.css");
+@import url("text.css");
+@import url("font_face.css");
+.container__token .token__code-key {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: "open_semi";
+  text-transform: uppercase;
+  font-size: 0.875em;
+  display: flex;
+  align-items: center;
+  justify-content: left; }
+  .container__token .token__code-key i {
+    font-size: 1em;
+    margin-right: 5px; }
+.container__token input {
+  font-size: 16px;
+  padding: 10px 12px; }
+
+.container__code-card .coordinates__num,
+.container__code-card .coordinates__input {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0; }
+.container__code-card label {
+  margin-top: 5px;
+  width: 33%;
+  text-align: center; }
+  .container__code-card label:nth-child(1) {
+    margin-right: 8px; }
+  .container__code-card label:nth-child(2) {
+    margin-right: 8px;
+    margin-left: 8px; }
+  .container__code-card label:nth-child(3) {
+    margin-left: 8px; }
+.container__code-card input {
+  text-align: center !important;
+  font-size: 18px;
+  width: 33%; }
+  .container__code-card input:nth-child(1) {
+    margin-right: 8px; }
+  .container__code-card input:nth-child(2) {
+    margin-right: 8px;
+    margin-left: 8px; }
+  .container__code-card input:nth-child(3) {
+    margin-left: 8px; }
+.container__code-card .code-card-col {
+  margin-top: 5px; }
+
+/*# sourceMappingURL=form-security.css.map */
