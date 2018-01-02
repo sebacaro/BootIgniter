@@ -1,0 +1,30 @@
+/* == GENERAL == */
+
+body{
+  padding-top: 50px;
+  background: url('../img/texture.png') top left repeat
+}
+
+h1 {
+  font-family: 'graduate',cursive;
+}
+
+/* == TITLE & ENROLL == */
+
+#title-enroll .jumbotron {
+  background: url('../img/mainBackground.png') 50% 0 no-repeat fixed;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: 'pacifico', cursive;
+}
+
+/* == WHAT WILL YOU LEARN == */
+
+#what-learn {
+    text-align: center;
+}
