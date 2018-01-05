@@ -2,8 +2,9 @@
     width: 100%;
 }
 .swiper-slide {
-	color: white;
-    height: 200px;	        
+	  color: white;
+    margin-bottom: 20px;
+    height: 200px;
     text-align: center;
     font-size: 18px;
     background: #fff;
