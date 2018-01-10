@@ -28,3 +28,7 @@ h2 {
 #what-learn {
     text-align: center;
 }
+
+img.alineadoTextoImagenCentro{
+  vertical-align: middle;
+}
