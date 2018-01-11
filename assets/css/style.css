@@ -5,6 +5,17 @@ body{
   background: url('../img/texture.png') top left repeat
 }
 
+.header-section {
+  text-align: center;
+  -webkit-font-smoothing: antialiased
+  text-rendering: optimizeLegibility;
+}
+
+.wrap {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 h1 {
   font-family: 'graduate',cursive;
 }
